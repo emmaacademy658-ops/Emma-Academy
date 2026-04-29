@@ -3,160 +3,134 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Emma Academy - Premium Web Solutions</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>Emma Academy - Website & Investment Platforms</title>
+
 <style>
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: #0f0f0f;
-  color: #fff;
-}
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f8f8f8;
+        color: #333;
+    }
 
-header {
-  background: linear-gradient(135deg, #7a1f1f, #c0392b);
-  padding: 80px 20px;
-  text-align: center;
-}
+    header {
+        background: linear-gradient(to right, #7a1f1f, #c0392b);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
 
-header h1 {
-  font-size: 42px;
-}
+    header h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
 
-header p {
-  max-width: 600px;
-  margin: 15px auto;
-  font-size: 18px;
-}
+    header p {
+        font-size: 18px;
+        max-width: 600px;
+        margin: auto;
+    }
 
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 15px 30px;
-  background: #fff;
-  color: #c0392b;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-}
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 15px 25px;
+        background: white;
+        color: #c0392b;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+    }
 
-.section {
-  padding: 70px 20px;
-  text-align: center;
-}
+    .section {
+        padding: 50px 20px;
+        text-align: center;
+    }
 
-.features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  max-width: 1100px;
-  margin: auto;
-}
+    .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
 
-.card {
-  background: #1c1c1c;
-  padding: 25px;
-  border-radius: 12px;
-  transition: 0.3s;
-}
+    .feature-box {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
 
-.card:hover {
-  transform: translateY(-10px);
-}
+    .price {
+        font-size: 35px;
+        color: #c0392b;
+        margin: 20px 0;
+        font-weight: bold;
+    }
 
-.price {
-  font-size: 40px;
-  color: #ff4d4d;
-  margin: 20px 0;
-}
-
-.badge {
-  background: #ff4d4d;
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-}
-
-.testimonials {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.testimonial {
-  background: #1c1c1c;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.cta {
-  background: linear-gradient(135deg, #c0392b, #7a1f1f);
-  padding: 60px 20px;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #000;
-}
+    footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
 </style>
 </head>
+
 <body>
 
 <header>
-  <span class="badge">LIMITED SLOTS AVAILABLE</span>
-  <h1>Emma Academy Creates Fast, Secure Websites</h1>
-  <p>Stop using WhatsApp alone. Launch a professional website or investment platform that builds trust and brings clients.</p>
-  <div class="price">₦100K ONLY</div>
-  <a href="https://wa.me/2348109509965?text=Hello%20I%20want%20a%20website" class="btn">Start on WhatsApp</a>
+    <h1>Emma Academy Creates Fast, Secure Websites</h1>
+    <p>
+        Still running your business on WhatsApp only? Launching an investment platform?
+        Don’t risk cheap, buggy code.
+    </p>
+    <div class="price">₦100K ONLY</div>
+    <a href="https://wa.me/2348109509965" class="btn">Chat on WhatsApp</a>
 </header>
 
 <section class="section">
-  <h2>What You Get</h2>
-  <div class="features">
-    <div class="card"><h3>🔒 SSL Security</h3><p>Secure and trusted platform</p></div>
-    <div class="card"><h3>💳 Payment Integration</h3><p>Accept payments instantly</p></div>
-    <div class="card"><h3>📊 Admin Dashboard</h3><p>Full control of your system</p></div>
-    <div class="card"><h3>⚡ 7 Days Delivery</h3><p>Fast and reliable launch</p></div>
-  </div>
+    <h2>What You Get</h2>
+    <div class="features">
+        <div class="feature-box">
+            <h3>🔒 SSL Security</h3>
+            <p>Your website is fully secure and trusted.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>💳 Payment Gateway</h3>
+            <p>Accept payments online easily.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>📊 Admin Dashboard</h3>
+            <p>Full control over your platform.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>⚡ Fast Delivery</h3>
+            <p>Ready in just 7 days.</p>
+        </div>
+    </div>
 </section>
 
-<section class="section" style="background:#111;">
-  <h2>Why Businesses Choose Us</h2>
-  <p>We don’t build cheap websites. We build platforms that make you money and position you as a serious brand.</p>
+<section class="section" style="background:#fff;">
+    <h2>Why Choose Us?</h2>
+    <p>
+        Look legit. Get paid online. Attract more clients.
+        We build fast, secure, and professional platforms that grow your business.
+    </p>
 </section>
 
 <section class="section">
-  <h2>Client Results</h2>
-  <div class="testimonials">
-    <div class="testimonial">"Got my investment site in 5 days. Started receiving payments immediately."</div>
-    <div class="testimonial">"My business finally looks professional. Clients trust me more now."</div>
-    <div class="testimonial">"Best decision I made this year. Highly recommend Emma Academy."</div>
-  </div>
-</section>
-
-<section class="section" style="background:#0b0b0b;">
-  <h2>Get a Free Consultation</h2>
-  <p>Drop your email and we’ll reach out with a quick plan for your website or investment platform.</p>
-  <form action="https://formspree.io/f/your-form-id" method="POST" style="max-width:500px;margin:20px auto;text-align:left;">
-    <input type="text" name="name" placeholder="Your Name" required style="width:100%;padding:12px;margin-bottom:10px;border-radius:6px;border:none;">
-    <input type="email" name="email" placeholder="Your Email" required style="width:100%;padding:12px;margin-bottom:10px;border-radius:6px;border:none;">
-    <textarea name="message" placeholder="What do you need? (optional)" style="width:100%;padding:12px;margin-bottom:10px;border-radius:6px;border:none;"></textarea>
-    <button type="submit" class="btn" style="width:100%;cursor:pointer;">Submit</button>
-  </form>
-  <p style="font-size:12px;opacity:0.7;">*Your info is safe. No spam.</p>
-</section>
-
-<section class="cta">
-  <h2>Ready to Upgrade Your Business?</h2>
-  <p>Only a few slots available this week.</p>
-  <a href="https://wa.me/2348109509965?text=Hello%20I%20want%20a%20website" class="btn">Call/WhatsApp: 08109509965</a>
+    <h2>Start Today</h2>
+    <p>Don’t wait. Take your business online now.</p>
+    <a href="https://wa.me/2348109509965" class="btn">Call/WhatsApp: 08109509965</a>
 </section>
 
 <footer>
-  <p>© 2026 Emma Academy. All rights reserved.</p>
+    <p>© 2026 Emma Academy. All rights reserved.</p>
 </footer>
 
 </body>
